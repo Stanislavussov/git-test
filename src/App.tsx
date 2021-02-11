@@ -45,6 +45,7 @@ const App = () => {
         setPage({...page, currentPage})
     }
 
+
     return (
         <Container maxWidth="sm">
             <Box display="flex" flexDirection="column" alignItems="center">
@@ -56,6 +57,7 @@ const App = () => {
                     onCurrentPageChange={onCurrentPageChange}
                 />
             </Box>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, quod.</p>
         </Container>
     );
 }
