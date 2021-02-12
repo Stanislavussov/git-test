@@ -74,6 +74,7 @@ const App = () => {
             </ul>
             <h1>NEW LINE</h1>
             <div>dev1</div>
+            <div>dev2</div>
         </Container>
     );
 }
